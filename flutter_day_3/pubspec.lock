@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  cupertino_icons:
+    dependency: "direct main"
+    description:
+      name: cupertino_icons
+      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
   fake_async:
     dependency: transitive
     description:
@@ -123,14 +131,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.15.0"
-  page_transition:
-    dependency: "direct main"
-    description:
-      name: page_transition
-      sha256: dee976b1f23de9bbef5cd512fe567e9f6278caee11f5eaca9a2115c19dc49ef6
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   path:
     dependency: transitive
     description:
@@ -139,14 +139,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
-  simple_animations:
-    dependency: "direct main"
-    description:
-      name: simple_animations
-      sha256: "1ea7b93fb98e2a611b6865d632de55607b766328d14700143353129ee0559d3a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
