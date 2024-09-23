@@ -28,29 +28,29 @@ Widget makePage(
           ],
         ),
       ),
-      child: const Padding(
-        padding: EdgeInsets.all(20.0),
+      child: Padding(
+        padding: const EdgeInsets.all(20.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text(
-              "Flutter",
-              style: TextStyle(
+              title,
+              style: const TextStyle(
                 color: Colors.white,
                 fontSize: 40,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text(
-              "Flutter is Google's UI toolkit for building beautiful, natively compiled, mobile and web apps.",
-              style: TextStyle(color: Colors.white, fontSize: 20),
+              description,
+              style: const TextStyle(color: Colors.white, fontSize: 20),
             ),
           ],
         ),
