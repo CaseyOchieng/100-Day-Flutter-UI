@@ -52,6 +52,9 @@ Widget makePage(
               description,
               style: const TextStyle(color: Colors.white, fontSize: 20),
             ),
+            const SizedBox(
+              height: 80,
+            ),
           ],
         ),
       ),

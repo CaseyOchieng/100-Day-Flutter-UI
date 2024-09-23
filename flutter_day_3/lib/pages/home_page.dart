@@ -13,31 +13,30 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
-        // scrollDirection: Axis.horizontal,
         children: [
           makePage(
-            image = "assets/images/one.jpg",
-            title = "Flutter",
+            image = "assets/images/two.jpg",
+            title = "London Bridge",
             description =
-                "Flutter is Google's UI toolkit for building beautiful, natively compiled, mobile and web apps.",
+                "London Bridge is a 19th century BRIDGE located on the River Thames in central London, England.",
           ),
           makePage(
-            image = "assets/images/two.jpg",
-            title = "Flutter",
+            image = "assets/images/one.jpg",
+            title = "Amazon forest",
             description =
-                "Flutter is Google's UI toolkit for building beautiful, natively compiled, mobile and web apps.",
+                "Amazon rainforest is a vast geographical area that is home to millions of trees and plants.",
           ),
           makePage(
             image = "assets/images/three.jpg",
-            title = "Flutter",
+            title = "Rock fall",
             description =
-                "Flutter is Google's UI toolkit for building beautiful, natively compiled, mobile and web apps.",
+                "Rock fall is an American term used to describe the occurrence of fallen rocks in the United States.",
           ),
           makePage(
             image = "assets/images/four.jpg",
-            title = "Flutter",
+            title = "Leopard",
             description =
-                "Flutter is Google's UI toolkit for building beautiful, natively compiled, mobile and web apps.",
+                "Leopad is an Indian term used to describe the occurrence of fallen rocks in the United States.",
           ),
         ],
       ),
