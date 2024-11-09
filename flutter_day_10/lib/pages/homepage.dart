@@ -51,9 +51,26 @@ class Homepage extends StatelessWidget {
               Container(
                 height: 250,
                 decoration: const BoxDecoration(
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(20),
+                  ),
                   image: DecorationImage(
                     image: AssetImage('assets/images/one.jpg'),
                     fit: BoxFit.cover,
+                  ),
+                ),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(
+                      Radius.circular(20),
+                    ),
+                    gradient: LinearGradient(
+                      begin: Alignment.bottomCenter,
+                      colors: [
+                        Colors.black.withOpacity(0.39),
+                        Colors.black.withOpacity(0.1),
+                      ],
+                    ),
                   ),
                 ),
               ),
