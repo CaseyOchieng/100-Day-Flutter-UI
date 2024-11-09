@@ -52,7 +52,7 @@ class Homepage extends StatelessWidget {
                 height: 250,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/images/port-1.jpg'),
+                    image: AssetImage('assets/images/one.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
